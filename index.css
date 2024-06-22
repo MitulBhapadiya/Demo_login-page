@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(141, 141, 141);
+}
+header{
+    background-color: black;
+}
+header nav{
+    padding: 1vw 1vh;
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    padding: 1px 1px;
+}
+header nav ul li{
+    list-style: none;
+    margin: auto 10px;
+}
+header nav ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 5px 10px;
+    box-shadow: inset 7px 7px 7px rgba(0, 0, 0, 0.526),5px 5px 5px rgba(255, 253, 253, 0.474);
+    margin: auto;
+}
+header nav ul a:hover{
+    background-color: black;
+    border: 2px solid rgb(255, 255, 127);
+    box-shadow: inset 7px 7px 7px rgba(255, 255, 255, 0.59),inset -5px -5px 5px rgba(255, 253, 253, 0.474);
+    color: white;
+}
+header nav ul a:active{
+    background-color: green;
+    color: pink;
+}
+.loginbox{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 7px 7px 60px rgba(0, 0, 0, 0.347),7px 7px 7px rgba(0, 0, 0, 0.51);
+    justify-content: center;
+    align-items: center;
+    margin: 10vh auto;
+    height: 60vh;
+    width: 60vh;
+}
+.loginimg{
+    height: 100px;
+}
+.loginbox form{
+    margin-top: 4vh;
+    
+}
+.loginbox form input{
+    width: 200px;    
+    padding: 4px;
+    font-size: 1.1rem;
+}
+.loginbox table td{
+    font-weight: bold;
+    padding: 1px 10px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+#submit{
+    padding: 5px 20px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
