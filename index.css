@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(141, 141, 141);
@@ -79,8 +80,19 @@ header nav ul a:active{
     align-items: center;
     margin-top: 10%;
 }
+input{
+    border-radius: 7px;
+}
 #submit{
     padding: 5px 20px;
     font-size: 1.1rem;
     border-radius: 8px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: yellow;
+    font-weight: bolder;
+}
+#submit:active{
+    background-color: rgb(71, 196, 13);
 }
